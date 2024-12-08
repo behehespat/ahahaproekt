@@ -183,15 +183,16 @@ a {
   line-height: 20px;
 }
 .exp {
-  margin-top: 1.8%;
-  margin-left: 8%;
-  width: 10px;
+  margin-left: 5%;
+  width: 40px;
   position: absolute;
+  margin-top: -2.5%;
 }
 
 .text1 {
-  margin-left: 15%;
+  margin-left: 20%;
   font-size: 23px;
+  
 }
 a {
   text-decoration: none;
@@ -205,5 +206,31 @@ a {
   font-size: 16px;
   text-transform: uppercase;
   color: #7E7E82;
+  border-radius: 10px;
+    background: white;
+    background-size: 20px;
+}
+
+.swiper {
+    border-width: 900px;
+    border-radius: 10px;
+    border: 2px
+}
+
+.swiper-slide {
+    color: #7E7E82;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left: 5%;
+
+}
+
+.text3 {
+    margin: 5%;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #7E7E82;
 }
 
