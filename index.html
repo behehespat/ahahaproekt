@@ -1,63 +1,107 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="src/style.scss">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/style.scss">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-    <title>bebeb</title>
-  </head>
-  <body>
-    <div class="header">
-      <img src="img/burger.svg" alt="" class="burger">
-      <img src="img/Group.svg" alt="" class="Group">
-      <img src="img/divider.svg" alt="" class="divider">
-      <img src="img/checkstatus.svg" alt="" class="checkstatus">
-      <img src="img/repair.svg" alt="" class="repair">
-    </div>
-
-    <div class ="usserv">
-      <img src="img/highlight.svg" alt="" class="highlight">
-      <h1 class="uslugi">  Услуги и сервисы</h1>
-    </div>
-
+  <title>behehe</title>
+</head>
+<body>
+  <div class="header">
+    <img src="img/burger.svg" alt="" class="burger">
+    <img src="img/Group.svg" alt="" class="group">
+    <img src="img/divider.svg" alt="" class="dvider">
+    <img src="img/repair.svg" alt="" class="repair">
+    <img src="img/checkstatus.svg" alt="" class="checkstatus">
   </div>
-<div class="swiper">
-<div class="swiper-wrapper">
-  <div class="swiper-slide">Рекомендуемые бренды</div>
-  <div class="swiper-slide">Дополнительные услуги</div>
-  <div class="swiper-slide">Цены на услуги</div>
-  <div class="swiper-slide">Адреса сервисных центров</div>
-  <div class="swiper-slide">Специальные цены</div>
+  <div class="uslugi">
+    <img src="img/highlight.svg" alt="" class="highlight">
+    <h1 class="uslug">Услуги и сервисы</h1>
+  </div>
+  <div class="main__menu--slider">
+    <div class="main__menu--slider--item">
+      <input
+        class="main__menu--slider-radio-button"
+        type="radio"
+        id="radio_brands"
+        name="selector"
+        checked
+      />
+      <label for="radio_brands" class="main__menu--slider--item-label">
+        <p>Ремонтируемые бренды</p>
+      </label>
+    </div>
+    <div class="main__menu--slider--item">
+      <input
+        class="main__menu--slider-radio-button"
+        type="radio"
+        id="radio_devices"
+        name="selector"
+      />
+      <label for="radio_devices" class="main__menu--slider--item-label">
+        <p>Дополнительные услуги</p>
+      </label>
+    </div>
+    <div class="main__menu--slider--item">
+      <input
+        class="main__menu--slider-radio-button"
+        type="radio"
+        id="radio_services"
+        name="selector"
+      />
+      <label for="radio_services" class="main__menu--slider--item-label">
+        <p>Цены на&nbsp;услуги</p>
+      </label>
+    </div>
+    <div class="main__menu--slider--item">
+      <input
+        class="main__menu--slider-radio-button"
+        type="radio"
+        id="radio_address"
+        name="selector"
+      />
+      <label for="radio_address" class="main__menu--slider--item-label">
+        <p>Адреса сервисных центров</p>
+      </label>
+    </div>
+    <div class="main__menu--slider--item">
+      <input
+        class="main__menu--slider-radio-button"
+        type="radio"
+        id="radio_prices"
+        name="selector"
+      />
+      <label for="radio_prices" class="main__menu--slider--item-label">
+        <p>Специальные цены</p>
+      </label>
+    </div>
+    <div class="main__menu--slider--item">
+      <input
+        class="main__menu--slider-radio-button"
+        type="radio"
+        id="radio_feedback"
+        name="selector"
+      />
+      <label for="radio_feedback" class="main__menu--slider--item-label">
+        <p>Отзывы</p>
+      </label>
+    </div>
+  </div>
+  <div><p class="text"> Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p></div>
+  <div>
+    <img src="img/expand.svg" alt="" class="exp">
+    <h1 class="text1">Читать далее</h1>
+  </div>
+  <div>
+    <img src="img/Picture Copy.svg" alt="" class="pic1">
+  </div>
+  <div>
+    <p class="text2">Ремонт техники различных брендов</p>
+  </div>
+
+
 </div>
-<div class="swiper-pagination"></div>
-</div>
-
-
-<script>
-const swiper = new Swiper('.swiper', {
-
-direction: 'horizontal',
-loop: true,
-
-
-
-
-navigation: {
-  nextEl: '.swiper-button-next',
-  prevEl: '.swiper-button-prev',
-},
-
-});</script>
-   
-<div 
-
-
-
-
-
-  </body>
+</body>
 </html>
