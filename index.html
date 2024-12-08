@@ -143,8 +143,41 @@
   <p class="text3">Ремонт различных видов техники</p>
 </div>
 
-<div class="swiper3">
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="img/beh1.png" alt=""></div>
+    <div class="swiper-slide"></div>
+    <div class="swiper-slide"><img src="img/beh2.png" alt=""></div>
+    <div class="swiper-slide"></div>
+    <div class="swiper-slide"><img src="img/beh3.png" alt=""></div>
+    <div class="swiper-slide"></div>
+    <div class="swiper-slide"><img src="img/beh4.png" alt=""></div>
+    <div class="swiper-slide"></div>
+    <div class="swiper-slide"></div>
+    <div class="swiper-slide"></div>
+  </div>
   
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+  var swiper1 = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    freeMode: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+</script>
+</div>
+
+<div>
+  <p class="text4">цены на услуги</p>
+</div>
+
 
 </body>
 </html>
