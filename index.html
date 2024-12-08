@@ -178,6 +178,45 @@
   <p class="text4">цены на услуги</p>
 </div>
 
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="img/kva1.svg" alt=""></div>
+    <div class="swiper-slide"></div>
+    <div class="swiper-slide"><img src="img/kva2.svg" alt=""></div>
+    <div class="swiper-slide"></div>
+    <div class="swiper-slide"><img src="img/kva3.svg" alt=""></div>
+    <div class="swiper-slide"></div>
+    <div class="swiper-slide"><img src="img/kva4.svg" alt=""></div>
+    <div class="swiper-slide"></div>
+    <div class="swiper-slide"><img src="img/kva5.svg" alt=""></div>
+    <div class="swiper-slide"></div>
+    <div class="swiper-slide"></div>
+  </div>
+  
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+  var swiper1 = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    freeMode: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+</script>
+
+<div>
+  <p class="text5">Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу. Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.</p>
+</div>
+
+<div>
+  <p class="text6">Получить коммерческое предложение <img src="img/more.svg"></p>
+</div>
+
 
 </body>
 </html>
